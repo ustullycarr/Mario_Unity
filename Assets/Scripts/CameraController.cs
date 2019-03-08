@@ -16,7 +16,7 @@ public class CameraController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void LatMeUpdate()
     {
         transform.position = ThirdPersonController.transform.position + offset;
     }
